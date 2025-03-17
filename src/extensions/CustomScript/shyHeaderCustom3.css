@@ -1,0 +1,219 @@
+.shyHeader-67 {    
+    display: none;
+}
+
+.shyHeader-124 {
+    display: none;
+}
+
+.kw_ar_ada2ac09 {
+    display: none;
+}
+
+.ki_ao_ada2ac09 {
+    display: none;    
+}
+
+.mr_as_ada2ac09 {
+    display: none;
+}
+
+/*.a_c_50a7110f {*//*:not(.g_c_50a7110f)*/
+    /*margin: 45px !important;
+}
+
+.a_b_50a7110f {
+    margin: 45px !important;
+}*/
+/*uncomment Webpart Edit Button
+.flexContainer-81 {
+    display: none;
+}*/
+.primarySet-97 {
+    display: none;
+}
+
+.spAppAndPropertyPanelContainer .sp-appBar {
+    display: none;
+}
+
+#CommentsWrapper {
+    display: none;
+}
+
+
+/*bootstrap style*/
+.navbar-dark {
+    --bs-navbar-color: #fff !important;
+    --bs-navbar-active-color: hsla(0,0%,100%,0.55) !important;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+.nav-link {
+    font-size: 16px !important;
+    font-weight:  500 !important;
+}
+
+
+.bg-darkerblue2 {
+    opacity: 1;
+    background-color: #06b5f7 !important;
+    height: 40px !important;
+}
+
+
+.ms-siteHeader {
+   display: none !important;
+}
+
+.navbar-toggler-icon {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.navbar-toggler.collapsed {
+  width: 34px !important;
+  height: 24px !important;
+  padding-left: 4px !important;
+  padding-top: 2px !important;
+  padding-right: 4px !important;
+}
+
+.offcanvas-body {
+    background-color:#06b5f7 !important;
+    color: #fff !important;
+}
+
+.offcanvas-header {
+    background-color: #06b5f7 !important;
+    color: #fff !important;
+}
+
+.offcanvas .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+}
+
+[class^='simpleFooterContainer'], [class*='simpleFooterContainer ']{
+    display: none;
+}
+
+
+
+.dropdown-menu.show {
+    background: #0033a1;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 14px !important;
+    display: block;
+}
+
+a.dropdown-item {
+    background: #0033a1;
+    color: #fff !important;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.dropdown-item:hover {
+    background: #fff;
+    color: #24292e !important;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #fff !important; /*var(--bs-dropdown-divider-bg);*/
+}
+
+.accordion-button {
+    color: #fff !important;
+    background-color: #52786b !important;
+    font-size: 20px !important;
+    height: 6vh !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.history {
+    color: #fff !important;
+    background-color: springgreen !important;
+    width: 100%;
+    font-size: 20px !important;
+    height: 6vh !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-image: none !important;
+}
+
+    .accordion-button:not(.collapsed):after {
+        color: #fff !important;
+        background-image: none !important;
+    }
+
+    .accordion-button:after {
+        color: #fff !important;
+        background-image: none !important;
+    }
+
+.customMessage {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    font-weight: 400;
+    background: rgb(223, 246, 221);
+    box-sizing: border-box;
+    color: rgb(50, 49, 48);
+    min-height: 24px;
+    width: 100%;
+    /*display: flex;*/
+    word-break: break-word;
+    display: none;
+}
+
+.customMessageError {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    font-weight: 400;
+    background: rgb(242 170 170);
+    box-sizing: border-box;
+    color: rgb(50, 49, 48);
+    min-height: 24px;
+    width: 100%;
+    word-break: break-word;
+    display: none;
+}
+
+.shyHeader-67.shyHeader-67.shyHeader-67.shyHeader-67.shyHeader-67 {
+    display: none;
+}
+
+.mainHeader-51.mainHeader-51.mainHeader-51.mainHeader-51.mainHeader-51 {
+    display: none !important;
+}
+
+[class*="mainHeader"][class*="mainHeader"][class*="mainHeader"][class*="mainHeader"][class*="mainHeader"] {
+    display: none !important;
+}
+
+[class*="shyHeader"][class*="shyHeader"][class*="shyHeader"][class*="shyHeader"][class*="shyHeader"] {
+    display: none !important;
+}
+
+/*.ms-DetailsHeader-cell {
+   
+}*/
+    
+
+    
