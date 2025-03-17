@@ -1,0 +1,286 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.offCanvasSpa2 {
+    .container {
+        max-width: 1170px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        scroll-padding-top: 0px;
+        scroll-padding-bottom: auto 20px;
+    }
+
+
+    .servereq {
+        max-width: 1170px !important;
+        min-width: 0% !important;
+        display: block !important;
+    }
+
+    .title {
+        @include ms-font-xl;
+        @include ms-fontColor-white;
+    }
+
+    .subTitle {
+        @include ms-font-l;
+        @include ms-fontColor-white;
+    }
+
+    .description {
+        @include ms-font-l;
+        @include ms-fontColor-white;
+    }
+
+    .bottom {
+        height: 40px;
+        text-align: center;
+        line-height: 2.5;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h4 {
+        color: #fff;
+        background-color: rgb(81, 159, 216);
+        width: 100%;
+        /*margin: 8px, 0px, 8px;
+        margin-top: 10px !important;*/
+        margin: 8px 0px !important;
+        text-align: center !important;
+        font-size: clamp(14px, 4vw, 20px) !important; //20px !important;
+        /*max-height: 6vh !important;*/
+        height: 6vh !important;
+        vertical-align: middle;
+        /*padding-top: 5px !important;*/
+        padding: calc(.25 * (3vh + 1.1vw)) !important; //5px 0px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .transHis {
+        background-color: rgb(35, 109, 163) !important;
+    }
+
+    h5 {
+        color: #fff;
+        background-color: rgb(0, 59, 101);
+        width: 100%;
+        margin: 8px 0px !important;
+        /*margin-top: 10px !important;*/
+        text-align: center !important;
+        font-size: clamp(14px, 4vw, 20px) !important;
+        height: 6vh !important;
+        vertical-align: middle;
+        /*padding-top: 5px !important;*/
+        padding: calc(.25 * (3vh + 1.1vw)) !important; //5px 0px !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .selectDrop {
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px 28px 0px 8px;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(97, 97, 97);
+        border-radius: 2px;
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        line-height: 30px;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: rgb(97, 97, 97);
+        width: 100% !important;
+    }
+
+    .nolabel {
+        margin-top: 30px !important;
+        border-radius: 0px !important;
+        height: 32px !important;
+        padding-top: 2px !important;
+    }
+
+    .noLabelAttach {
+        padding: 0px 0px !important;
+        margin: 0px 0px !important;
+    }
+
+    .nolabelNewRow {
+        margin-top: 10px !important;
+        border-radius: 0px !important;
+        height: 32px !important;
+        padding-top: 2px !important;
+    }
+
+    .tableBtn {
+        border-radius: 0px !important;
+        height: 32px !important;
+        padding-top: 2px !important;
+    }
+
+    .tableBtnReport {
+        border-radius: 0px !important;
+        height: 28px !important;
+        padding-top: 0px !important;
+        min-width: 80px !important;
+        padding: 0px !important;
+    }
+
+    .tableScroll {
+        overflow: scroll;
+    }
+
+    .tableCell {
+        min-width: 150px !important;
+    }
+
+    .tableCellSelect {
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px 28px 0px 8px;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(97, 97, 97);
+        border-radius: 2px;
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        line-height: 30px;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: rgb(97, 97, 97);
+        min-width: 150px !important;
+        max-width: 150px !important;
+    }
+
+    .tableCellDate {
+        //@include dropdownLabel(100%);
+        i {
+            pointer-events: none;
+        }
+
+        min-width: 150px !important;
+    }
+
+    .button {
+        // Our button
+        text-decoration: none;
+        height: 32px;
+        // Primary Button
+        min-width: 80px;
+        background-color: $ms-color-themePrimary;
+        border-color: $ms-color-themePrimary;
+        color: $ms-color-white;
+        // Basic Button
+        outline: transparent;
+        position: relative;
+        font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: $ms-font-size-m;
+        font-weight: $ms-font-weight-regular;
+        border-width: 0;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 16px;
+
+        .label {
+            font-weight: $ms-font-weight-semibold;
+            font-size: $ms-font-size-m;
+            height: 32px;
+            line-height: 32px;
+            margin: 0 0px;
+            vertical-align: bottom;
+            display: inline-block;
+        }
+    }
+}
+
+.error {
+    font-weight: $ms-font-weight-semibold;
+    color: red;
+}
+
+.searchBtn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.customSelect {
+    width: auto;
+}
+
+.newlogo {
+    height: 70px;
+    width: auto;
+    margin: 7px 0 0 10px;
+}
+
+.datepicker {
+    i {
+        pointer-events: none;
+    }
+}
+
+.btngroup {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 10px;
+}
+
+.btngroup > div {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+}
+
+.table th, td {
+    border-collapse: collapse !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.table th {
+    background-color: rgb(0, 59, 101) !important;
+    color: #fff !important;
+}
+
+.table tr:hover {
+    background-color: #f4f4f4 !important;
+    cursor: pointer !important;
+    outline: transparent solid 1px !important;
+}
+
+.table td {
+    background-color: transparent !important;
+}
+
+.spinner {
+    z-index: 1170;
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    background-color: white !important;
+    animation-name: css-0;
+    animation-duration: 0.167s;
+    animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+    animation-fill-mode: both;
+}
+

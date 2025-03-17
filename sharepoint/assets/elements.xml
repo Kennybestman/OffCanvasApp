@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="OffCanvasNarBar"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="6e0c2286-9fcc-4f20-ac38-433f0787d2c9"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
