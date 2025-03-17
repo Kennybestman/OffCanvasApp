@@ -62,7 +62,12 @@ const TopNavigationBoot: React.FunctionComponent<ITopNavigationBootProps> = (pro
         document.getElementById("customdisplayMessage").style.display = "none";
         document.getElementById("customdisplayMessageError").style.display = "none";
     }  
-    
+
+    // The first Navbar tag is for the first two sites and the second Navbar tag is for the third site
+    // props.sitePageUrl1 and props.sitePageUrl2 are the first two sites
+    // Under Navbar tag 1, I have two Nav tags for the first two sites
+    // props.sitePageUrl3 is the third site
+
     return (
         <div>
             {(currentSiteUrl.indexOf(props.sitePageUrl1) > -1 || currentSiteUrl.indexOf(props.sitePageUrl2) > -1) && (<div className={styles.newbannerngx}>
@@ -110,7 +115,7 @@ const TopNavigationBoot: React.FunctionComponent<ITopNavigationBootProps> = (pro
                     </Navbar>)
                 )}
             </>)}
-
+            
             {(currentSiteUrl.indexOf(props.sitePageUrl3) > -1) && (<div className={styles.newbanner}>
                 <img alt="" src={props.logoUrl} className={styles.newfbnlogo} />
                 <div className={styles.menuLogo}> </div>

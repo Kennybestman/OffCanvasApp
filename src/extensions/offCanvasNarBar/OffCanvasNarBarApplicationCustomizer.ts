@@ -33,11 +33,18 @@ export default class OffCanvasNarBarApplicationCustomizer extends BaseApplicatio
     private _topPlaceholder: PlaceholderContent | undefined;
 
     // Insert your site assests here
+    // Please replace the site name (SPHackathon) with your site name
+    // Copy the CustomScript folder to the SiteAssets folder in the site collection
+    // The CustomScript folder contains the logo, favicon and css files for the custom top navigation
+    // The CustomScript folder is located in the src/extensions folder
+
     private _cssurl: string = "/sites/SPHackthon/SiteAssets/CustomScript/shyHeaderCustom.css";
     private _cssurl3: string = "/sites/SPHackthon/SiteAssets/CustomScript/shyHeaderCustom3.css";
     private _jsurl: string = "/sites/SPHackthon/SiteAssets/CustomScript/settingScript.css";
     private _icourl: string = "/sites/SPHackthon/SiteAssets/CustomScript/bkgrlogo.ico";
     private _logourl: string = "/sites/SPHackthon/SiteAssets/CustomScript/bkgrlogo.png";
+
+    // Insert your site pages url here
     private siteName1: string = "/sites/SPHackthon/SitePages/sphackthon_demo1.aspx";
     private siteName2: string = "/sites/SPHackthon/SitePages/sphackthon_demo2.aspx";
     private siteName3: string = "/sites/SPHackthon/SitePages/sphackthon_demo3.aspx";
@@ -167,7 +174,7 @@ export default class OffCanvasNarBarApplicationCustomizer extends BaseApplicatio
                     topString = "(Top property was not defined.)";
                 }
 
-                //Injecting custom Boostrap Off Canvas Top Navigation for SPA Webpart
+                //Injecting custom Boostrap Off Canvas Top Navigation React component and passing the props
                 if (this._topPlaceholder.domElement) {
                     const elem: React.ReactElement<ITopNavigationBootProps> = React.createElement(TopNavigationBoot, navprops);
                     ReactDOM.render(elem, this._topPlaceholder.domElement);
